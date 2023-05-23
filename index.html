@@ -126,9 +126,186 @@ Hola, me llamo Daniel. Soy <b style="color: chartreuse;"> de Java full stack</b>
 
     <a href="/assets/images/Receta-Tamal-de-Chipilín.jpg" download>Descarga la imagen del tamalito :3</a>
 
+    <br>
 
-
+    <h3>Etiqueta de imagen</h3>
+    <!--<img> etiqueta que sirve para almacenar imagenes
+    Atributos de imagen:
+        - src: El atributo source define la ubicacion del archivo (local oremota)
+        - alt: define un texto alterno a la imagen.
+        - width: define el ancho de la imagen
+        - height: define el alto de la imagen
     
+    -->
+    <img src="assets/images/tonaya.jpeg" alt="Tonaya en el campo " width="300px" height="200px">
+
+    <br>
+    <img src="https://cdn.kiwilimon.com/brightcove/8572/8572.jpg" alt="Torta de tamal" width="300rem">
+<br>
+    <a href="https://www.youtube.com/watch?v=MToMx6RCW-M" target="_blank">
+        <img src="assets/images/abejita estudiosa.jpg" alt="Abejota estudiosa" width="300px">
+    </a>
+<br>
+<br>
+<br>
+<br>
+
+    <h3>Listas</h3>
+    <!--Listas ordenadas y desordenadas
+    Ordenadas: siguen una secuencias de jeraarquia (1,2,3,4,5...)
+    desordenadas: no siguen un proceso, por lo tanto no hay una numeracionsi no que existen viñetas.
+
+    <ol> Ordered list o lista ordenada <-ol>
+    <li> List item o elemtos de lista <-li>
+
+    -->
+
+    <h4>Lista ordenada</h4>
+
+    <ol>Lista ordenada
+        <li>Daniel</li>
+        <li>Pune</li>
+        <li>Kelly</li>
+        <li>kolaz</li>
+    </ol>
+
+    <ul>Nombre de la mascotas de la CH28
+        <li>Kira</li>
+        <li>Laike</li>
+        <li>Lucky</li>
+        <li>Morgan</li>
+        <li>Appa</li>
+
+    </ul>
+    
+    <hr>
+
+    <ol>Tacos mexicanos
+        <li>Pastor</li>
+        <ul>
+            <li>Salsa roja</li>
+            <li>Salsa verde</li>
+        </ul>
+
+        <li>Suadero</li>
+        <ol>
+            <li>con queso</li>
+            <li>sin queso</li>
+            <li>con papas</li>
+
+        </ol>
+
+        <li>Carnitas</li>
+        <ol>
+            <li>surtida</li>
+                <ul>
+                    <li>Natural</li>
+                    <li>Con todo</li>
+                </ul>    
+            <li>Maciza</li>
+                <ul>
+                    <li>Natural</li>
+                    <li>Con todo</li>
+                </ul>
+
+                
+
+        </ol>
+
+        <li>canasta</li>
+
+    </ol>
+
+<hr>
+    <h4>Lista de compras</h4>
+    <ol>
+        <li>Cosina</li>
+            <ul>
+                <li>sal</li>
+                <img src="assets/images/IMG_9776a.webp" alt="sal" height="300px">
+                <li>azucar</li>
+                <li>huevo</li>
+                <li>atun</li>
+            </ul>
+        <li>Baño</li>
+            <ul>
+                <li>Jabon</li>
+                <li>shampo</li>
+                <li>pasta dental</li>
+                <li>enjuague bucal</li>
+
+            </ul>
+        <li>limpieza</li>
+            <ul>
+                <li>escoba</li>
+                <li>recojedor</li>
+                <li>franela</li>
+                <li>fabuloso</li>
+
+            </ul>
+        <li>Lavanderia</li>
+            <ul>
+                <li>suavizante</li>
+                <li>jabon liquido</li>
+                <li>blanquedor</li>
+                
+            </ul>
+
+    </ol>
+    <hr>
+<h4>Lista de definiciones</h4>
+<!--
+    <dl></dl>:identificar que es una definition list o lista de decinicion
+    <dt></dt>: indica que es una definicion term o termino de definicion
+    <dd></dd>: indica un definicion
+-->
+
+<dl>
+    <dt>Perritos</dt>
+    <dd>Es un animal mamimero de cuatro patas, bonitos que viven en las casa y algunos viven en la calle :( </dd>
+
+    <dt>Gatitos</dt>
+    <dd>Es un animal mamifero felino, con garras ocultas, independiente, que le gusta visitar otras casas</dd>
+    
+    <dt>Conejito </dt>
+    <dd>Es un animal mamifero, pequeñito, con orejas largas que come zanahorias.</dd>
+
+</dl>
+
+<h3>Etiquetas de division</h3>
+<!-- La etiqueta de division se utiliza como contenedor de elemtos HYMl, que luego facilmente utilizando los atributos globales de "class" "id"
+
+¡Se puede poner cualquier tipo de contenido dentro de la etiqueta <div>!
+
+-->
+
+<h4>El elemnto div</h4>
+
+<div>Hola soy un contenedor con texto</div>
+
+<div>
+    <h5>soy un h5 dentro de un div </h5>
+    <p>Soy un parrafo viviendo en un div</p>
+</div>
+
+
+<div class="contenedor" id="contnedorpadre" style="color: chartreuse; border: 1px solid red; background-color: hotpink;"> <!--este div funciona como contenedor-->
+    <p>Hola soy un parrafo en un div</p>
+    <h4>Soy h4 hermano del parrafo</h4>
+    <div class="contenedor" id="contenedorhijo" style="color: brown; border: 4px solid green; background-color: aqua;">Soy un div dentro de otro div</div>
+</div>
+
+<hr>
+
+    <h3>Etiqueta span</h3>
+
+    <!--La etiqueta span es un contenedor de linea que se utiliza para marcar una parte de un texto o una parte de un documento.
+    Es parecido a <div> pero <span6> es un elemto a nivel linea
+    -->
+    <p style="color: blueviolet; font-weight: bolder;">
+        El nombre de mi perrita es Tonaya ella era muy <span style="color: coral;">pequeña y juguetona</span> , le gustaba mucho que le rascaran su <mark style="color: red;">pancita</mark> , siempre se acercaba para que la acariciaras.
+    </p>
+
     <br>
     <br>
     <br>
